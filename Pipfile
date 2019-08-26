@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+
+[packages]
+store = "*"
+connexion = "*"
+flask-cors = "*"
+prometheus-client = "*"
+
+[requires]
+python_version = "3.7"

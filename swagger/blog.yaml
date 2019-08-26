@@ -1,0 +1,24 @@
+openapi: "3.0.0"
+
+info:
+  title: GDG Blog Assignment
+  version: "1.0"
+servers:
+  - url: http://0.0.0.0:666/v1.0
+
+paths:
+  /posts:
+    post:
+      summary: post
+      description: post
+      operationId: api.all
+      responses:
+        200:
+          description: blog response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+  
